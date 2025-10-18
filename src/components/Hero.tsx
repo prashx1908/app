@@ -65,14 +65,20 @@ const Hero = () => {
               >
                 View Projects
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-4 border-foreground bg-card hover:bg-accent hover:text-accent-foreground shadow-brutal transform hover:translate-x-1 hover:translate-y-1 transition-smooth font-bold uppercase tracking-wide"
-              >
-                <Download className="mr-2 h-5 w-5" />
-                Download CV
-              </Button>
+             <a
+    href="https://drive.google.com/file/d/1HHcmPYv4wPhogtlHlIiBqWhAela6pg82/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button
+      size="lg"
+      variant="outline"
+      className="border-4 border-foreground bg-card hover:bg-accent hover:text-accent-foreground shadow-brutal transform hover:translate-x-1 hover:translate-y-1 transition-smooth font-bold uppercase tracking-wide"
+    >
+      <Download className="mr-2 h-5 w-5" />
+      Download CV
+    </Button>
+  </a>
             </div>
 
             {/* Social Links */}
