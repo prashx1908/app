@@ -7,8 +7,8 @@ const Projects = () => {
       title: "Seraphina: Postpartum Depression Prediction",
       description: "ML-based tool to predict postpartum depression risk with personalized mental health guidance. Secured 1st Place in Women TechMakers Hackathon.",
       tech: ["Python", "Scikit-learn", "Random Forest", "Streamlit"],
-      link: "#",
-      github: "#",
+      link: "https://seraphina.streamlit.app/",
+      github: "https://github.com/prashx1908/Seraphina",
       award: "🏆 1st Place Winner",
       thumbnail: "/image1.png", // Seraphina project image
     },
@@ -16,39 +16,39 @@ const Projects = () => {
       title: "FinLit: Financial Literacy Platform",
       description: "Django-based financial management tool with expenditure tracking, investment recommendations, and AI chatbot assistance.",
       tech: ["Django", "PostgreSQL", "Matplotlib", "JavaScript"],
-      link: "#",
-      github: "#",
-      thumbnail: "/image2.png", // FinLit project image
+      link: "https://finlit-entropy.onrender.com/",
+      github: "https://github.com/prashx1908/FinLit_Entropy",
+      thumbnail: "/image3.png", // FinLit project image
     },
     {
       title: "WorkZen: Developer Productivity Prediction",
       description: "ML model predicting developer work-life balance with personalized productivity recommendations.",
       tech: ["Python", "Scikit-learn", "Streamlit"],
-      link: "#",
-      github: "#",
-      thumbnail: "/image3.png", // WorkZen project image
+      link: "https://workzendevshouse-gf9k45uspbov3nj2z7m3tr.streamlit.app/",
+      github: "https://github.com/prashx1908/Workzen_Devshouse",
+      thumbnail: "/image2.png", // WorkZen project image
     },
     {
       title: "Vidyasagar Dashboard",
       description: "Comprehensive student management portal with three login portals for students, teachers, and management.",
       tech: ["Django", "PostgreSQL", "HTML", "CSS"],
       link: "#",
-      thumbnail: "/vidyasagar.png", // Vidyasagar Dashboard image
+      thumbnail: "/image4.png", // Vidyasagar Dashboard image
     },
     {
       title: "BalancePro: Work-Life Balance Prediction",
       description: "Flask web application predicting work-life balance using Random Forest models with 91% accuracy.",
       tech: ["Flask", "Python", "Random Forest", "Jinja2"],
-      link: "#",
-      github: "#",
-      thumbnail: "/image4.png", // BalancePro project image
+      link: "https://balancepro.onrender.com/",
+      github: "https://github.com/prashx1908/BalancePro",
+      thumbnail: "/image5.png", // BalancePro project image
     },
     {
       title: "Lab Report Data Extraction",
       description: "OCR-based solution extracting lab test data from medical reports via FastAPI service.",
       tech: ["FastAPI", "OCR", "Python"],
-      github: "#",
-      thumbnail: "/image5.png", // Lab Report Data Extraction image
+      github: "https://github.com/prashx1908/LabReportExtractor",
+      thumbnail: "/image7.png", // Lab Report Data Extraction image
     },
   ];
 

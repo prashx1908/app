@@ -51,28 +51,28 @@ const Certificates = () => {
       thumbnail: "/cert8.jpg",
     },
     {
-      title: "Database Management Systems",
-      issuer: "Certificate",
-      description: "Comprehensive understanding of database design and management",
+      title: "Flask Web App",
+      issuer: "MLSA",
+      description: "Comprehensive session on creating a web-app in Flask.",
       thumbnail: "/cert9.jpg",
     },
     {
       title: "Best Intern Team of the Year",
       issuer: "MIT Square Research Internship",
       description: "Outstanding team collaboration and innovative research contributions",
-      thumbnail: "/mitsq.jpeg",
+      thumbnail: "/cert10.jpg",
     },
     {
       title: "Cisco Python Essentials 1",
       issuer: "Cisco Networking Academy",
       description: "Foundational Python programming skills including syntax and semantics",
-      thumbnail: "/cert10.jpg",
+      thumbnail: "/cert11.png",
     },
     {
       title: "TEXUS'24 Technical Event Volunteer",
       issuer: "Developer Students Club",
       description: "Conducted IdeaForge ideathon event with full capacity participation",
-      thumbnail: "/dsc.jpeg",
+      thumbnail: "/cert14.jpg",
     },
   ];
 

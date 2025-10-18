@@ -24,19 +24,19 @@ const Hackathons = () => {
       name: "DIMO Hacks - VIT AP",
       achievement: "Participant",
       project: "Developed Web3-based blockchain hospital record management system",
-      thumbnail: "/hackathon4.jpg",
+      thumbnail: "/hackathon6.jpg",
     },
     {
       name: "TRINIT Hackathon - NIT Trichy",
       achievement: "Finalist",
       project: "Built Agriculture Prediction System using ML for crop yield forecasting",
-      thumbnail: "/hackathon5.jpg",
+      thumbnail: "/hackathon4.jpg",
     },
     {
       name: "SRM FinTech Hackathon",
       achievement: "Finalist",
       project: "Advanced fintech solution leveraging ML for financial data analysis",
-      thumbnail: "/hackathon6.jpg",
+      thumbnail: "/hackathon5.jpg",
     },
   ];
 

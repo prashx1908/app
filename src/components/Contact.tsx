@@ -27,9 +27,9 @@ const Contact = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-6 pt-8">
           {[
-            { icon: Github, href: "https://github.com/prashanth", label: "GitHub", color: "bg-secondary" },
-            { icon: Linkedin, href: "https://linkedin.com/in/prashanth", label: "LinkedIn", color: "bg-primary" },
-            { icon: Code2, href: "https://leetcode.com/prashanth", label: "LeetCode", color: "bg-accent" },
+            { icon: Github, href: "https://github.com/prashx1908", label: "GitHub", color: "bg-secondary" },
+            { icon: Linkedin, href: "https://linkedin.com/in/prashanth-g-399225202", label: "LinkedIn", color: "bg-primary" },
+            { icon: Code2, href: "https://leetcode.com/prashx1908", label: "LeetCode", color: "bg-accent" },
           ].map((social) => (
             <a
               key={social.label}

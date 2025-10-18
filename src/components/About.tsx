@@ -20,9 +20,9 @@ const About = () => {
           {/* Main content */}
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              Hello! I'm Prashanth, a passionate and dedicated Computer Science student currently 
+              Hello! I'm Prashanth, a passionate and dedicated final yearComputer Science student currently 
               pursuing my B.Tech at SRM Institute of Science and Technology, Chennai. With a CGPA 
-              of <span className="font-bold text-primary">9.82</span>, I have developed a solid 
+              of <span className="font-bold text-primary">9.85</span>, I have developed a solid 
               foundation in various areas of technology.
             </p>
             

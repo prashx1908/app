@@ -1,30 +1,49 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages & Frameworks",
-      skills: ["JavaScript", "Python", "C++", "React", "Django", "Flask"],
-      color: "primary"
+      title: "Programming Languages",
+      skills: ["Python", "Java", "JavaScript", "C++", "HTML", "CSS"],
+      color: "primary",
+    },
+    {
+      title: "Frameworks & Libraries",
+      skills: ["React", "Node.js", "Express.js", "Django", "Flask", "Streamlit"],
+      color: "accent",
     },
     {
       title: "Databases & Tools",
-      skills: ["PostgreSQL", "MySQL", "Git", "Figma", "Tailwind CSS"],
-      color: "accent"
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "Git", "Figma", "Tailwind CSS"],
+      color: "secondary",
     },
     {
-      title: "ML & Data Science",
-      skills: ["Machine Learning", "TensorFlow", "PyTorch", "NLP", "Data Analysis", "Tableau"],
-      color: "secondary"
+      title: "Machine Learning & Data Science",
+      skills: [
+        "Machine Learning",
+        "Data Analytics",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "Tableau",
+      ],
+      color: "primary",
     },
     {
-      title: "Other Skills",
-      skills: ["REST APIs", "Web Scraping", "Streamlit", "Public Speaking", "Leadership"],
-      color: "primary"
+      title: "Concepts & Technical Skills",
+      skills: ["OOP", "Networks", "REST APIs", "Web Scraping", "Data Visualization"],
+      color: "accent",
+    },
+    {
+      title: "Soft Skills",
+      skills: ["Leadership", "Public Speaking", "Event Management", "Communication", "Problem Solving"],
+      color: "secondary",
     },
   ];
 
   const colorMap = {
-    primary: "border-primary hover:bg-primary",
-    accent: "border-accent hover:bg-accent",
+    primary: "border-primary hover:bg-primary hover:text-white",
+    accent: "border-accent hover:bg-accent hover:text-white",
     secondary: "border-secondary hover:bg-secondary hover:text-white",
   };
 
@@ -41,7 +60,7 @@ const Skills = () => {
           {skillCategories.map((category, idx) => (
             <div
               key={idx}
-              className="bg-card border-4 border-foreground p-6 shadow-brutal animate-slideUp"
+              className="bg-card border-4 border-foreground p-6 shadow-brutal rounded-2xl animate-slideUp transition-transform duration-300 hover:-translate-y-2"
               style={{ animationDelay: `${idx * 0.1}s` }}
             >
               <h3 className="text-2xl font-bold mb-6 font-mono">{category.title}</h3>
@@ -49,7 +68,7 @@ const Skills = () => {
                 {category.skills.map((skill, skillIdx) => (
                   <span
                     key={skillIdx}
-                    className={`px-4 py-2 border-3 border-foreground ${colorMap[category.color as keyof typeof colorMap]} hover:text-white transition-smooth font-medium`}
+                    className={`px-4 py-2 border-3 border-foreground ${colorMap[category.color]} transition-smooth font-medium rounded-lg`}
                   >
                     {skill}
                   </span>

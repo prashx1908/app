@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Hello, I'm Prashanth G 👋";
+  const fullText = "Heyy, I'm Prashanth👋";
   
   useEffect(() => {
     let index = 0;
@@ -78,9 +78,9 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
               {[
-                { icon: Github, href: "https://github.com/prashanth", label: "GitHub" },
-                { icon: Linkedin, href: "https://linkedin.com/in/prashanth", label: "LinkedIn" },
-                { icon: Code2, href: "https://leetcode.com/prashanth", label: "LeetCode" },
+                { icon: Github, href: "https://github.com/prashx1908", label: "GitHub" },
+                { icon: Linkedin, href: "https://linkedin.com/in/prashanth-g-399225202", label: "LinkedIn" },
+                { icon: Code2, href: "https://leetcode.com/prashx1908", label: "LeetCode" },
               ].map((social) => (
                 <a
                   key={social.label}

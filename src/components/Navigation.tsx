@@ -42,7 +42,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-2xl font-bold font-mono hover:text-primary transition-smooth"
           >
-            {"<PG />"}
+            {"<PG>"}
           </button>
 
           {/* Desktop Navigation */}
