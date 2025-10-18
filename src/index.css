@@ -53,6 +53,45 @@ All colors MUST be HSL.
     --shadow-brutal: 4px 4px 0px hsl(240 10% 15%);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .dark {
+    /* Dark Theme - Retro Terminal Aesthetic */
+    --background: 240 10% 8%;  /* Deep dark background */
+    --foreground: 42 15% 95%;  /* Light cream text */
+
+    --card: 240 8% 12%;  /* Slightly lighter dark */
+    --card-foreground: 42 15% 95%;
+
+    --popover: 240 8% 12%;
+    --popover-foreground: 42 15% 95%;
+
+    /* Primary - Bright Cyan (terminal green alternative) */
+    --primary: 190 95% 55%;
+    --primary-foreground: 240 10% 8%;
+
+    /* Secondary - Lighter Navy */
+    --secondary: 240 15% 20%;
+    --secondary-foreground: 42 15% 95%;
+
+    /* Muted */
+    --muted: 240 8% 18%;
+    --muted-foreground: 240 5% 65%;
+
+    /* Accent - Bright Orange */
+    --accent: 25 95% 60%;
+    --accent-foreground: 240 10% 8%;
+
+    /* Destructive */
+    --destructive: 0 85% 65%;
+    --destructive-foreground: 240 10% 8%;
+
+    /* Borders - Bright for dark mode */
+    --border: 42 15% 85%;
+    --input: 42 15% 85%;
+    --ring: 190 95% 55%;
+
+    --shadow-brutal: 4px 4px 0px hsl(42 15% 85%);
+  }
 }
 
 @layer base {
