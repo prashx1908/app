@@ -10,7 +10,7 @@ const Projects = () => {
       link: "#",
       github: "#",
       award: "🏆 1st Place Winner",
-      thumbnail: "/media/image1.png", // Seraphina project image
+      thumbnail: "/image1.png", // Seraphina project image
     },
     {
       title: "FinLit: Financial Literacy Platform",
@@ -18,7 +18,7 @@ const Projects = () => {
       tech: ["Django", "PostgreSQL", "Matplotlib", "JavaScript"],
       link: "#",
       github: "#",
-      thumbnail: "/media/image2.png", // FinLit project image
+      thumbnail: "/image2.png", // FinLit project image
     },
     {
       title: "WorkZen: Developer Productivity Prediction",
@@ -26,14 +26,14 @@ const Projects = () => {
       tech: ["Python", "Scikit-learn", "Streamlit"],
       link: "#",
       github: "#",
-      thumbnail: "/media/image3.png", // WorkZen project image
+      thumbnail: "/image3.png", // WorkZen project image
     },
     {
       title: "Vidyasagar Dashboard",
       description: "Comprehensive student management portal with three login portals for students, teachers, and management.",
       tech: ["Django", "PostgreSQL", "HTML", "CSS"],
       link: "#",
-      thumbnail: "/media/vidyasagar.png", // Vidyasagar Dashboard image
+      thumbnail: "/vidyasagar.png", // Vidyasagar Dashboard image
     },
     {
       title: "BalancePro: Work-Life Balance Prediction",
@@ -41,14 +41,14 @@ const Projects = () => {
       tech: ["Flask", "Python", "Random Forest", "Jinja2"],
       link: "#",
       github: "#",
-      thumbnail: "/media/image4.png", // BalancePro project image
+      thumbnail: "/image4.png", // BalancePro project image
     },
     {
       title: "Lab Report Data Extraction",
       description: "OCR-based solution extracting lab test data from medical reports via FastAPI service.",
       tech: ["FastAPI", "OCR", "Python"],
       github: "#",
-      thumbnail: "/media/image5.png", // Lab Report Data Extraction image
+      thumbnail: "/image5.png", // Lab Report Data Extraction image
     },
   ];
 

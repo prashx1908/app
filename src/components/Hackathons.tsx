@@ -6,37 +6,37 @@ const Hackathons = () => {
       name: "WTM She Innovates Hackathon",
       achievement: "1st Place",
       project: "Developed Seraphina: A postpartum depression prediction model using ML",
-      thumbnail: "/media/hackathon1.jpg",
+      thumbnail: "/hackathon1.jpg",
     },
     {
       name: "Entropy'24 Hackathon - VIT Chennai",
       achievement: "Top 20 out of 100 Teams",
       project: "Developed FinLit: AI & ML-based financial literacy platform",
-      thumbnail: "/media/hackathon2.jpg",
+      thumbnail: "/hackathon2.jpg",
     },
     {
       name: "DevsHouse Hackathon",
       achievement: "Finalist",
       project: "Built WorkZen: Developer productivity prediction tool using ML",
-      thumbnail: "/media/hackathon3.jpg",
+      thumbnail: "/hackathon3.jpg",
     },
     {
       name: "DIMO Hacks - VIT AP",
       achievement: "Participant",
       project: "Developed Web3-based blockchain hospital record management system",
-      thumbnail: "/media/hackathon4.jpg",
+      thumbnail: "/hackathon4.jpg",
     },
     {
       name: "TRINIT Hackathon - NIT Trichy",
       achievement: "Finalist",
       project: "Built Agriculture Prediction System using ML for crop yield forecasting",
-      thumbnail: "/media/hackathon5.jpg",
+      thumbnail: "/hackathon5.jpg",
     },
     {
       name: "SRM FinTech Hackathon",
       achievement: "Finalist",
       project: "Advanced fintech solution leveraging ML for financial data analysis",
-      thumbnail: "/media/hackathon6.jpg",
+      thumbnail: "/hackathon6.jpg",
     },
   ];
 
