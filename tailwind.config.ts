@@ -65,25 +65,41 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        slideUp: {
+          from: { opacity: '0', transform: 'translateY(30px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        slideRight: {
+          from: { opacity: '0', transform: 'translateX(-30px)' },
+          to: { opacity: '1', transform: 'translateX(0)' },
+        },
+        typewriter: {
+          from: { width: '0' },
+          to: { width: '100%' },
+        },
+        blink: {
+          '50%': { borderColor: 'transparent' },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        float: "float 3s ease-in-out infinite",
+        slideUp: "slideUp 0.6s ease-out",
+        slideRight: "slideRight 0.6s ease-out",
+        typewriter: "typewriter 3s steps(40) 1s forwards",
+        blink: "blink 1s step-end infinite",
       },
     },
   },
