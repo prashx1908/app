@@ -105,19 +105,11 @@ const Hero = () => {
               
               {/* Profile picture container */}
               <div className="relative w-72 h-72 md:w-96 md:h-96 border-8 border-foreground bg-card shadow-brutal overflow-hidden">
-                {/* Placeholder - User will add their image */}
-                <div className="w-full h-full bg-muted flex items-center justify-center">
-                  <p className="text-center text-muted-foreground font-mono">
-                    Add your<br />profile picture<br />here
-                  </p>
-                </div>
-                {/* Uncomment and add your image path when ready:
                 <img 
-                  src="/path-to-your-image.jpg" 
+                  src="/media/DSC_0669.JPG" 
                   alt="Prashanth G"
                   className="w-full h-full object-cover"
                 />
-                */}
               </div>
             </div>
           </div>
