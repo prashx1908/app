@@ -52,7 +52,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-              I am Prashanth, a pre-final year B.Tech in Computer Science and Engineering student at SRM Institute 
+              I am Prashanth, Program Intern at Leap & a final year B.Tech in Computer Science and Engineering student at SRM Institute 
               of Science and Technology with a strong interest in Software Development and Machine Learning.
             </p>
 
